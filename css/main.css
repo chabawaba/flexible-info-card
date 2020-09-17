@@ -52,7 +52,6 @@ ul li img {
   justify-content: space-between;
 }
 
-h3 h4 {
+h3, h4 {
   margin: 0;
-  padding: 0;
 }
