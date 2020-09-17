@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  font-family: open-Sans;
+  color: #000;
+  line-height: 1.5;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+a {
+  background-color: #444;
+  color: white;
+}
