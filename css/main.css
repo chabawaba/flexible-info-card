@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open-Sans" sans-serif;
+  font-family: "Open-Sans", sans-serif;
   color: #000;
   line-height: 1.5;
 }
@@ -24,6 +24,7 @@ h2 {
 ul li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 a {
