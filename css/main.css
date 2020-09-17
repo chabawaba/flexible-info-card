@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: open-Sans;
-  font-family: sans-serif;
+  font-family: "Open-Sans" sans-serif;
   color: #000;
+  line-height: 1.5;
 }
 
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -24,8 +24,8 @@ h2 {
 ul li {
   display: flex;
   justify-content: space-between;
-
 }
+
 a {
   background-color: #444;
   color: white;
@@ -40,7 +40,6 @@ ul li a {
 
 ul li p {
   width: 24rem;
-
 }
 
 ul li hgroup {
