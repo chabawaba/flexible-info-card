@@ -3,8 +3,6 @@ html {
   font-family: open-Sans;
   font-family: sans-serif;
   color: #000;
-  line-height: 1.5;
-  background-color: #ccc;
 }
 
 *, *::before, *::after{
@@ -13,13 +11,40 @@ html {
 
 body {
   margin: 0;
+  line-height: 1.5;
+  background-color: #ccc;
 }
 
+h2 {
+  margin: 1.5;
+  text-align: center;
+  align-content: center;
+}
+
+ul li {
+
+}
 a {
   background-color: #444;
   color: white;
+  text-decoration: none;
+  padding: .5rem;
 }
 
-li {
-  display: flex;
+ul li a {
+  display: inline-block;
+  text-align: center;
+}
+
+ul li p {
+  width: 24 rem;
+
+}
+
+ul li hgroup {
+  width: 16rem;
+}
+
+ul li img {
+  width: 5rem;
 }
